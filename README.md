@@ -41,10 +41,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Airpods  
   <img src="readme-images/airpods.png" width="375px" alt="Apple pagina AirPods">
+  <img src="readme-images/airpods2.png" width="375px" alt="Apple pagina AirPods">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Accessories  
   <img src="readme-images/accessories.png" width="375px" alt="Apple pagina Accessories">
+  <img src="readme-images/accessories2.png" width="375px" alt="Apple pagina Accessories">
  
 </details>
 
