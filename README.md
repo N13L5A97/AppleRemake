@@ -61,28 +61,55 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  <!-- Hier korte omschrijving (met indien nodig afbeeldingen) -->
+  Van een screenreader op apple wordt het daadwerkelijk helemaal gek. Het is super onduidelijk wat je moet doen. De muis geeft niet aan waar je op staat en hij leest continu mijn menubalk voor, niet de website.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  <!-- Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen) -->
+  Ik weet niet hoe dit werkt, maar dit moet beter gemaakt worden.
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  <!-- Hier korte omschrijving (met indien nodig afbeeldingen) -->
+  De website is niet goed "tab-baar". Hij schokt door de website heen en je moet op meerdere knoppen (ctrl, option shift) klikken om iets te kunnen selecteren. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ <img src="readme-images/zondermuis.png" width="375px" alt="slechte website">
+
+
+  <!-- Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen) -->
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  <!-- Hier korte omschrijving (met indien nodig afbeeldingen) -->
+  besturen met shocks is nog redelijk te doen. De knoppen zijn groot genoeg om ze aan te kunnen klikken. Typen daarin tegen is lastiger.
+  <video controls width="250">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+    <source src="readme-images/motoriek.MOV">
+</video>
+
+  <!-- Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen) -->
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  <!-- Hier korte omschrijving (met indien nodig afbeeldingen) -->
+  1.  Met de Blur/Glate bril kun je bijna niks lezen op de website. Je ziet wel wat vlakken en alleen de grote titels met contrast. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  2. de website heeft geen dark/light mode
+  3. kleurenblindheid:
+  - Protanopia is goed zichtbaar
+  - Deuteranopia is praktisch het zelfde als Protanopia
+  - Tritanopia ziet er eigenlijk veel gezelliger uit, contrast is nog steeds duidelijk.
+  <img src="readme-images/kleurenblind1.png" width="375px" alt="Forced Colors">
 
+  - Ook met achromatopsia (grijs) is er nog steeds een duidelijk contrast, alleen sommiige foto's en video's zijn iets minder duidelijk zichbaar. 
+  <img src="readme-images/grijsbeeld.png" width="375px" alt="Forced Colors">
+
+
+  <!-- Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen) -->
+  1. Wanneer je "forced colors" aan zet zie je wel iets meer, dus het zou opgelost kunnen worden met fellere kleuren, grotere letters en meer contrast.
+  <img src="readme-images/forcedcolors.png" width="375px" alt="Forced Colors">
+
+  2. Er kan een dark/light mode gemaakt worden.
+  3. De video's en foto's zouden een groter contrast functie of uberhaupt meer contrast moeten krijgen.
+  
 </details>
 
 
