@@ -80,9 +80,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Motoriek (shocks, elastiekjes)
   <!-- Hier korte omschrijving (met indien nodig afbeeldingen) -->
   besturen met shocks is nog redelijk te doen. De knoppen zijn groot genoeg om ze aan te kunnen klikken. Typen daarin tegen is lastiger.
+  
   <video controls width="250">
-
-    <source src="readme-images/motoriek.MOV">
+    <source src="readme-images/motoriektest2.mp4"
+            type="video/mp4">
 </video>
 
   <!-- Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen) -->
