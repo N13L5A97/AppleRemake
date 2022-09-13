@@ -136,6 +136,53 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
+## Mini Symposium (week 2)
+<details>
+  <summary>Aantekeningen Mini Symposium</summary>
+  
+  Websites voor accesability check
+  - https://webaim.org
+  - https://www.htmhell.dev
+
+  ### Testen met "Tab" en "Enter"
+  - Kun je overal komen met tab
+  - Let op focus styling (kan je zien waar je bent)
+  - Kun je snel door content heen "tabben"
+
+  Elementen die kunnen helpen bij Tab/Enter:
+  - Gebruik "skip link" tussen content in
+  - geef de focus styling een duidelijke kleur
+
+  ### Testen met een screen reader.
+  - Is alles wat gezegd wordt logisch 
+  - Hebben alle elementen een placeholder 
+  - Is alles semantisch correct in de HTML
+  - Check links met dubbele namen 
+  - De volgorde in de html moet kloppen 
+
+  Elementen die kunnen helpen bij screenreaders:
+  - Button role geeft waarde aan een knop 
+  - Geef Iframes een title 
+  - Span in een link zetten zodat de screen reader dat leest 
+  - Zet headings boven plaatjes en pas aan met css.
+  - remove bullitpoints waar nodig.
+
+
+  ###  Samenvatting Manuel:
+  Om je website gemakkelijk al veel toegankelijker te maken kun je meteen in de HTML al 
+  een aantal aapassingen doen. Let op dat je semantisch correcte HTML schrijft. 
+  Test vroeg op tab/enter en met een screenreader. 
+
+  ###  Samenvatting Eric:
+  Toegankelijkheid zit hem in de kleinste dingen. Soms heb je niet eens door dat je iets
+  ontwerpt dat voor veel mensen niet toegankelijk is. Bijvoorbeeld de collegezaal waar we
+  in zaten. Het helpt om goed met mensen met een beperking te praten om te kijken naar de behoeften
+  van de persoon in plaats van uitgaan van aannamens en daar je ontwerp op baseren. 
+  Onderzoek is key. 
+
+
+
+</details>
 
 
 
