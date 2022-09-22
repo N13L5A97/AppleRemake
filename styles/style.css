@@ -1,6 +1,8 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -19,7 +21,12 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:#111;
+	--color-text2: white;
 	--color-background:#eee;
+	--color-nav-background: rgba(0,0,0,0.8); 
+	--color-bars: #d3d3d3;
+	--color-links: rgb(0, 89, 255);
+
 }
 
 
@@ -32,8 +39,377 @@ button, summary {
 
 /* jouw code */
 
+
+
 body {
   color:var(--color-text);
   background-color:var(--color-background);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+header{
+	position: relative;
+	height: 48px;
+}
+
+h1{
+	visibility: hidden;
+	margin: 0;
+}
+
+h2{
+	font-size: 3em;
+	margin: 0;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h4{
+	font-size: 1.2em;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+header nav ul{
+	/* position */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+
+
+	height: 48px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* Styling */
+	background-color:var(--color-nav-background);
+}
+
+header img{
+	min-width: 1em;
+	margin: .7em;
+}
+
+
+/* Main navigatie */
+main nav{
+	display: grid;
+	grid-template-columns: 2em 1fr 2em;
+	align-items: center;
+}
+
+main nav > a:first-of-type{
+	padding: .3em;
+	transform: rotate(180deg);
+	width: 1.5em;
+}
+
+main nav > a:last-of-type{
+	padding: .3em;
+	width: 1.5em;
+}
+
+
+
+main nav ul{
+	/* position */
+	grid-column-start: 2;
+	display: flex;
+	align-items: center;
+	overflow: auto;
+
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+	color:var(--color-text);
+}
+
+
+/* figure heeft een grid om de img en de figcaption onder elkaar te zetten en 
+uit te lijnen in het midden (plaatje end caption start) */
+figure{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	justify-items: center;
+	padding: 0em;
+	margin: 0;
+}
+
+figcaption{
+	align-items: start;
+	width: 7.3em;
+}
+
+main nav ul figure img {
+	align-items: end;
+	height: 3em;
+
+}
+
+
+nav p{
+	margin: 0;
+	color: red;
+	
+}
+
+/* stukje tekst onder de nav */
+
+section:first-of-type > p{
+	background-color: var(--color-bars);
+	padding: 1.5em 5em;
+	margin: 2em 0em;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+
+
+section a {
+	color: var(--color-links);
+}
+
+/* dit geld voor alle section articles Airpods vlakken */
+
+section article{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	border-radius: 1em;
+	height: 31em;
+	margin: 2em;
+	padding: 2em 0em;
+}
+
+
+
+section article p{
+	font-size: 1.2em;
+	margin: 0;
+}
+
+section article ul{
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+	padding: 0;
+}
+
+section li:first-of-type a{
+	background-color: var(--color-links);
+	color: var(--color-text2);
+	padding: .5em 1em;
+	border-radius: 10em;
+}
+
+
+
+
+/* video section */
+
+#video {
+	height: 35em;
+	background-image: url("../images/video_startframe.jpg");
+	background-size: cover;
+	color: var(--color-text2);
+	position: relative;
+}
+
+#video p:first-of-type{
+	order: -1;
+	color: lime;
+	font-weight: bold;
+}
+
+#video p:last-of-type{
+	margin: 2em 0 .5em 0;
+}
+
+
+#video a{
+	color: var(--color-text2);
+}
+
+#video li:first-of-type a{
+	background-color: var(--color-background);
+	color: var(--color-text);
+	padding: .5em 1em;
+	border-radius: 10em;
+}
+
+
+/* deze button moet nog vervangen worden  */
+#video button{
+	background: none;
+	transform: rotate(90deg);
+	width: 3em;
+	height: 3em;
+	border-radius: 100%;
+	border: solid grey 4px;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+
+}
+
+
+/* Airpods sections */
+
+section:nth-of-type(3) article {
+	background-color: white;
+	position: relative;
+}
+
+section:nth-of-type(3) article img{
+	width: 18em;
+	order: -1;
+	margin-bottom: -8em;
+}
+
+section:nth-of-type(3) p:first-of-type {
+	font-weight: bold;
+}
+
+
+/* Airpods 2nd generation  */
+
+
+section:nth-of-type(3) article:nth-of-type(2) img{
+	width: 15em;
+	order: -1;
+	margin-bottom: -2em;
+}
+
+
+/* Airpods Max  */
+section:nth-of-type(3) article:nth-of-type(3) img{
+	width: 15em;
+	order: -1;
+	margin-bottom: 2.5em;
+}
+
+section:nth-of-type(3) article:nth-of-type(3) p{
+	font-weight: 400;
+}
+
+
+/* a magical connection */
+
+
+
+section:nth-of-type(4) section {
+	display: flex;
+	justify-content: flex;
+	overflow: auto;
+	padding-left: 2em;
+	gap: 1.5em;
+}
+
+section:nth-of-type(4) article{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 23em 1em;
+	height: 27em;
+
+
+	border-radius: 18px;
+	background-color: white;
+	margin: 0;
+	padding: 1em 2em;
+	text-align: start;
+}
+
+section:nth-of-type(4) img{
+	
+	grid-column: 2/3;
+	grid-row: 1/2;
+	order: -1;
+}
+
+section:nth-of-type(4) h4{
+	grid-column: 1/3;
+	grid-row: 2/3;
+}
+
+section:nth-of-type(4) article:nth-of-type(2){
+	padding: 0em 4em;
+}
+
+
+
+/* automatic switching plaatje */
+section:nth-of-type(4) article:nth-of-type(4) img{
+	width: 17em;
+}
+
+/* siri plaatje */
+section:nth-of-type(4) article:nth-of-type(5) img{
+	width: 8em;
+	margin: 3em;
+}
+
+/* accessability plaatje */
+section:nth-of-type(4) article:nth-of-type(6) img{
+	width: 7em;
+	margin: 3em;
+}
+
+
+/* next and back icons */
+
+section:nth-of-type(4) ul{
+	display: flex;
+	justify-content: center;
+	padding:0;
+	
+}
+
+section:nth-of-type(4) ul img{
+	width: 2.5em;
+}
+
+section:nth-of-type(4) ul button{
+	border: none;
+}
+
+section:nth-of-type(4) ul li:nth-of-type(1) img{
+	transform: rotate(180deg);
+}
+
+/* which Airpods are right for you? */
+
+section:nth-of-type(5) {
+	margin-top: 5em;
+	
+
+}
+
+section:nth-of-type(5) h2{
+	font-size: 2em;
+	margin: 1em;
+}
+
+
+section:nth-of-type(5) article {
+	margin-top: 20em;
+
 }
 

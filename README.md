@@ -194,24 +194,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Over het algemeen ging het maken van de html best wel vloeiend. 
+  Dit kwam grotendeels door van te voren een breakdown schets te maken. Daarnaast heb ik de website van Apple geinspecteerd in Google om te kijken hoe zij dat deden en of ik dat logisch vond. 
+  Ik probeerde hierbij divjes en spans te vermijden en zelf een logische structuur op te zetten.
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  <img src="readme-images/screen_header.png" width="375px" alt="screenshot van header html">
+  <img src="readme-images/screen_main_nav.png" width="375px" alt="screenshot van main nav html">
+  <img src="readme-images/screen_video.png" width="375px" alt="screenshot van video html">
+  <img src="readme-images/screen_section.png" width="375px" alt="screenshot van section html">
+  <img src="readme-images/screen_footer.png" width="375px" alt="screenshot van footer html">
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Opzoeken hoe een tabel werkt
+  - Op bepaalde plekken kunnen elementen nog in een article 
+  - Footer heeft 2 sections ipv een footer in de main
+  - Kijken naar andere opties dan ul
+  - summary element W3Schools voor uitklapbare elementen 
 
 </details>
 
@@ -354,8 +355,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hoe krijg je Apple's lettertype: 
+  https://www.geeksforgeeks.org/how-to-add-apples-new-san-francisco-font-on-a-webpage-using-css/
+  
+  2. Hoe werkt background image ook al weer:
+  https://www.w3schools.com/cssref/pr_background-image.asp
+
+  3. Image extractor:
+  https://extract.pics/
 
 </details>
