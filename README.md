@@ -189,11 +189,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1e voortgang</summary>
+  <summary>uitwerking van 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
   Over het algemeen ging het maken van de html best wel vloeiend. 
   Dit kwam grotendeels door van te voren een breakdown schets te maken. Daarnaast heb ik de website van Apple geinspecteerd in Google om te kijken hoe zij dat deden en of ik dat logisch vond. 
   Ik probeerde hierbij divjes en spans te vermijden en zelf een logische structuur op te zetten.
@@ -217,35 +215,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>uitwerking van 2e voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ### Stand van zaken 
+  Ik heb het grootste deel van de feedback van vorige week verwerkt, maar ben nog niet toegekomen aan het opzoeken van hoe een een tabel werkt en andere vormen van een ul. Ik heb verder gewerkt aan een nieuwe section (compare) waar ik veel aan het experimenteren was met grid in CSS.
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ### Screenshots van css .compare 
+  <img src="readme-images/screen_compare_css1.png" width="375px" alt="screenshot 1 van css class compare">
+  <img src="readme-images/screen_compare_css2.png" width="375px" alt="screenshot 2 van css class compare">
+  <img src="readme-images/screen_compare_css3.png" width="375px" alt="screenshot 3 van css class compare">
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Samen hebben we gekeken naar mijn grid waar iets fout ging met de margin
+  - Ook hebben we samen gekeken naar hoe mijn uitklapbare menu in elkaar steekt 
+  - Voor de footer details en summary gebruiken 
+  - Goed op weg verder
 
 </details>
 
@@ -262,27 +252,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader werkte op zich best wel goed. Het was nogal uitvogelen hoe je hem bestuurt, maar met een beetje oefening las hij best wel duidelijk voor wat er op de pagina stond. Ik moet nog beter onderzoeken hoe je hem eventueel automatisch op engels kan zetten (omdat mijn website in het Engels is en in het Nederlands wordt voorgelezen). Daarnaast leest hij vaak iets te veel details voor zoals het ">" tekentje als "groter dan":
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  <img src="readme-images/SR_1.png" width="375px" alt="screenshot van Screenreader 1">
+  <img src="readme-images/SR_2.png" width="375px" alt="screenshot van Screenreader 1">
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Tab gaat soepel door de website heen langs alle linkjes. Het enige probleem is dat hi niet het menu overslaat als je daar niet in gaat.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/screen_tab.png" width="375px" alt="screenshot van tab test">
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met je vingers aan elkaar gebonden kom je redelijk goed door de website heen een aantal dingen zijn makkelijker toagenkelijk doordat ze scrollbaar zijn i.p.v op een knop drukken. Je kunt ook scrollen met je pijltjes, die zijn alleen een beetje klein. Gelukkig kun je ook de spatiebalk gebruiken om grote delen te scrollen.  
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Qua visuele beperkingen is er nog niks veranderd, omdat ik de pagina nogal letterlijk heb nagemaakt.
+  Ik ga nog wel een dark/light mode toevoegen als ik tijd over heb qua kleurenblindheid is alles wel duidelijk leesbaar.
 
 </details>
 
@@ -293,20 +280,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3e voortgang</summary>
+  <summary>uitwerking van 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het uitwerken van mijn eerste pagina ging goed. Voor mobiel zag hij er erg netjes uit, maar voor responsive moet er nog het een en ander gebeuren. Ook ben ik begonnen aan mijn tweede pagina, waar ik nogal in de knoop begin te raken. Ik heb toch voor de homepage gekozen, waardoor mijn CSS nu een beetje rommelig is. Wanneer ik 1 ding aanpas doet hij het ergens anders ook dus ik moet heel goed gaan kijken naar hoe ik bepaalde selectoren ga gebruiken. 
 
+  ### Screenshots van Airpods Pagina
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+  <img src="readme-images/Airpods_1.png" width="375px" alt="screenshot van Airpods page 1">
+  <img src="readme-images/Airpods_2.png" width="375px" alt="screenshot van Airpods page 2">
+  <img src="readme-images/Airpods_3.png" width="375px" alt="screenshot van Airpods page 3">
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -379,6 +363,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   8. Background Image centreren:
   https://www.w3schools.com/cssref/pr_background-position.asp
 
-  
+
 
 </details>
