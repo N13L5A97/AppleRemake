@@ -364,4 +364,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Image extractor:
   https://extract.pics/
 
+  4. details & summary met Robert:
+  https://codepen.io/robertspier/pen/NWMapEM
+
+  5. uitklapbaar menu met Robert:
+  https://codepen.io/robertspier/pen/PoeJpVO
+
+  6. How to full screen mobile menu:
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay
+
+  7. search bar maken:
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+  8. Background Image centreren:
+  https://www.w3schools.com/cssref/pr_background-position.asp
+
+  
+
 </details>
