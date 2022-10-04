@@ -352,12 +352,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Het is me door de tijd niet gelukt om het laatste deel van de footer mooi responsive te maken. Ook de transition van de navigatie achtergrond van grijs naar zwart heb ik niet meer uit kunnen proberen. De video van de Airpods Pro kon ik niet aan komen dus hier heb ik een frame geplaatst i.p.v. een video.
   Ik vind de animatie van het menu nog niet heel erg mooi hoe het scaled en de styling van de footer navigatie (met details en summary) omzetten naar dat hij altijd open blijft staan heb ik nog niet uitgebreid naar kunnen kijken.
 
-  Als laatste een stuk Javascript waarbij je als het ware kunt scrollen met een knop tussen elementen heb ik niet toegevoegd en je kunt niet "rond" scrollen maar alleen maar van links naar rechts.
+  Ook een stuk Javascript waarbij je als het ware kunt scrollen met een knop tussen elementen heb ik niet toegevoegd en je kunt niet "rond" scrollen maar alleen maar van links naar rechts.
+
+  Als laatste heb ik niet meer de mogelijkheid gehad om een dark/light mode toe te voegen en er voor te zorgen dat met het tabben hij de linkjes in een verborgen menu overslaat.
 
   <img src="readme-images/home_footer_responsive.png" width="375px" alt="screen home footer">
   <img src="readme-images/airpods_main.png" width="375px" alt="screen Airpods main">
   <img src="readme-images/airpods_top_responsive.png" width="375px" alt="screen airpods video">
   <img src="readme-images/home_footer_responsive.png" width="375px" alt="screen home footer">
+
+
 
 
 </details>
