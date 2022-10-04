@@ -296,10 +296,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Voor de homepage de background images met @media aanpassen als het scherm groter word. (Spelen met background-size)
+  - Voor het menu 2 verschillende versies maken voor kleinen groot scherm. (display: none);
+  - Tab menu overslaan als hij dicht is: aria labels opzoeken
+  - de container van de video centreren (.vidContainer : max-width + margin-auto)
+  - Stream now button margin met pixels oplossen 
+  Tekst naar boven duwen 
 
 </details>
 
@@ -310,22 +312,54 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
+  <summary>uitwerking van eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Voor de opdracht heb ik de Apple website gekozen en dan specifiek voor de homepage en de Airpods page. Eerst ging ik voor de Airpods page en de Asseccoires page, maar dit heb ik in een later stadium toch omgegooid omdat ik de pagina's te veel op elkaar ond lijken. 
+
+  ## Home page 
+  <img src="readme-images/home_top.png" width="375px" alt="Screen home top">
+  <img src="readme-images/home_footer.png" width="375px" alt="Screen home footer">
+  <img src="readme-images/apple_menu.png" width="375px" alt="Mobile menu">
+
+  ## Home page responsive 
+  <img src="readme-images/home_responsive.png" width="375px" alt="Screen home top responsive">
+  <img src="readme-images/home_footer_responsive.png" width="375px" alt="Screen home footer responsive">
+
+  ## Airpods page
+
+  <img src="readme-images/airpods_top.png" width="375px" alt="Screen Airpods top">
+  <img src="readme-images/airpods_main.png" width="375px" alt="Screen Airpods main">
+  <img src="readme-images/airpods_grid.png" width="375px" alt="Screen Airpods grid">
+  <img src="readme-images/airpods_footer.png" width="375px" alt="Screen Airpods footer">
+
+  ## Airpods page responsive
+  <img src="readme-images/airpods_top_responsive.png" width="375px" alt="Screen Airpods top responsive">
+  <img src="readme-images/airpods_main_responsive.png" width="375px" alt="Screen Airpods main responsive">
+  <img src="readme-images/airpods_footer_responsive.png" width="375px" alt="Screen Airpods footer responsive">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd met display grid en positioneren te werken, animaties en uitklapbare menu's te maken en met details/summary te werken. Ik ben veel bezig geweest met background-images en begrijp nu veel beter wanneer wat kunt toepassen, zoals background-size en background-position. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/details.png" width="375px" alt="screen van details">
+  <img src="readme-images/airpods_grid.png" width="375px" alt="screen van Airpods grid">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond het heel erg lastig om met meerdere pagina's een duidelijke structuur te houden in mijn CSS. Het is dan ook niet helemaal gelukt om alles heel netjes gestructureerd te krijgen. Daarnaast was het soms lastig om grids te maken van elementen waar ook een titel boven staat, hier ben ik uiteindelijk wel uitgekomen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het is me door de tijd niet gelukt om het laatste deel van de footer mooi responsive te maken. Ook de transition van de navigatie achtergrond van grijs naar zwart heb ik niet meer uit kunnen proberen. De video van de Airpods Pro kon ik niet aan komen dus hier heb ik een frame geplaatst i.p.v. een video.
+  Ik vind de animatie van het menu nog niet heel erg mooi hoe het scaled en de styling van de footer navigatie (met details en summary) omzetten naar dat hij altijd open blijft staan heb ik nog niet uitgebreid naar kunnen kijken.
+
+  Als laatste een stuk Javascript waarbij je als het ware kunt scrollen met een knop tussen elementen heb ik niet toegevoegd en je kunt niet "rond" scrollen maar alleen maar van links naar rechts.
+
+  <img src="readme-images/home_footer_responsive.png" width="375px" alt="screen home footer">
+  <img src="readme-images/airpods_main.png" width="375px" alt="screen Airpods main">
+  <img src="readme-images/airpods_top_responsive.png" width="375px" alt="screen airpods video">
+  <img src="readme-images/home_footer_responsive.png" width="375px" alt="screen home footer">
+
+
 </details>
 
 
@@ -363,6 +397,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   8. Background Image centreren:
   https://www.w3schools.com/cssref/pr_background-position.asp
 
+  9. Plaatje veranderen van menu Icon:
+  https://techfunda.com/howto/444/changing-of-images
 
 
 </details>
