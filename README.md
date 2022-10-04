@@ -342,9 +342,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb geleerd met display grid en positioneren te werken, animaties en uitklapbare menu's te maken en met details/summary te werken. Ik ben veel bezig geweest met background-images en begrijp nu veel beter wanneer wat kunt toepassen, zoals background-size en background-position. 
 
-  <img src="readme-images/details.png" width="375px" alt="screen van details">
   <img src="readme-images/airpods_grid.png" width="375px" alt="screen van Airpods grid">
-
+  <img src="readme-images/details.png" width="375px" alt="screen van details">
+  
 
   ### Dit was lastig/Is niet gelukt:
   Ik vond het heel erg lastig om met meerdere pagina's een duidelijke structuur te houden in mijn CSS. Het is dan ook niet helemaal gelukt om alles heel netjes gestructureerd te krijgen. Daarnaast was het soms lastig om grids te maken van elementen waar ook een titel boven staat, hier ben ik uiteindelijk wel uitgekomen.
